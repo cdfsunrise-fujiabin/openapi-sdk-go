@@ -1,4 +1,4 @@
-module cdfsunrise.com/openapi
+module github.com/cdfsunrise-fujiabin/openapi-sdk-go
 
 go 1.22.1
 
