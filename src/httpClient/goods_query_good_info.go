@@ -1,9 +1,9 @@
 package httpClient
 
 import (
-	"cdfsunrise.com/openapi/src/utils/exHttp"
 	"context"
 	"fmt"
+	"github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/utils/exHttp"
 	"github.com/mitchellh/mapstructure"
 )
 
