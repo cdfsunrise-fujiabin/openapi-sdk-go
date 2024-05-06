@@ -20,14 +20,14 @@ type QueryGoodInfoResponse struct {
  * @param: lefoxId string 商品lefoxid 必填项
  * @return: *QueryGoodInfoResponse
 */
-func (t *CdfSunriseRequestClient) QueryGoodInfo(ctx context.Context, authToken string, channelId string, lefoxId string) (*QueryGoodInfoResponse, error) {
-	headers := GenHeaders(map[string]string{
-		"token": authToken,
-	})
+func (t *CdfSunriseRequestClient) QueryGoodInfo(ctx context.Context, channelId string, lefoxId string) (*QueryGoodInfoResponse, error) {
+	headers := GenHeaders(nil)
+	
 	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/query/good/info?channelId=%v&lefoxId=%v", channelId, lefoxId), exHttp.WithHeaders(headers)).GetUnmarshal()
-	if err != nil {
-		return nil, err
-	}
+	
+    if err != nil {
+        return nil, err
+    }
 
 	var respEntity QueryGoodInfoResponse
 	err = mapstructure.Decode(respMap, &respEntity)

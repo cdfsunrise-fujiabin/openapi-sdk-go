@@ -50,31 +50,31 @@ func (h *HttpRequest) Get() ([]byte, error) {
 }
 
 func (h *HttpRequest) GetUnmarshal() (any, error) {
-	return h.sendHttpRequestUnmarshall(http.MethodGet)
+	return h.sendHttpRequestUnmarshal(http.MethodGet)
 }
 
 func (h *HttpRequest) Post() ([]byte, error) {
 	return h.sendHttpRequest(http.MethodPost)
 }
 
-func (h *HttpRequest) PostUnmarshall() (any, error) {
-	return h.sendHttpRequestUnmarshall(http.MethodPost)
+func (h *HttpRequest) PostUnmarshal() (any, error) {
+	return h.sendHttpRequestUnmarshal(http.MethodPost)
 }
 
 func (h *HttpRequest) Put() ([]byte, error) {
 	return h.sendHttpRequest(http.MethodPut)
 }
 
-func (h *HttpRequest) PutUnmarshall() (any, error) {
-	return h.sendHttpRequestUnmarshall(http.MethodPut)
+func (h *HttpRequest) PutUnmarshal() (any, error) {
+	return h.sendHttpRequestUnmarshal(http.MethodPut)
 }
 
 func (h *HttpRequest) Delete() ([]byte, error) {
 	return h.sendHttpRequest(http.MethodDelete)
 }
 
-func (h *HttpRequest) DeleteUnmarshall() (any, error) {
-	return h.sendHttpRequestUnmarshall(http.MethodDelete)
+func (h *HttpRequest) DeleteUnmarshal() (any, error) {
+	return h.sendHttpRequestUnmarshal(http.MethodDelete)
 }
 
 func (h *HttpRequest) GetProxy() string {
@@ -108,7 +108,7 @@ func (h *HttpRequest) sendHttpRequest(method string) ([]byte, error) {
 	return respModel, nil
 }
 
-func (h *HttpRequest) sendHttpRequestUnmarshall(method string) (any, error) {
+func (h *HttpRequest) sendHttpRequestUnmarshal(method string) (any, error) {
 	respModel, err := h.sendHttpRequest(method)
 	if err != nil {
 		return nil, err
