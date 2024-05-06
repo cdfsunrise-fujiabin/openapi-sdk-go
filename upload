@@ -2,4 +2,5 @@
 
 git add .
 git commit -m "增加/cdf/userInfo的代码"
+git status
 git push origin main

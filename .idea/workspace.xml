@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/upload" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/cdf_sunrise_request_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/cdf_sunrise_request_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_gql_gql_query_good_info.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_query_good_info.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_3des_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_long_rsa_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/exEncrypt/sign_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/exHttp/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exHttp/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload" beforeDir="false" afterPath="$PROJECT_DIR$/upload" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
