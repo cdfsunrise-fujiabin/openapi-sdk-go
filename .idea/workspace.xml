@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_gql_gql_query_good_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_gql_gql_query_good_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_query_good_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_query_good_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_del_merchant_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_del_merchant_cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_channel_register.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_v_1_channel_register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_register.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/pingan_pingan_order_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/pingan_pingan_order_query.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,35 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/fujiabin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/fujiabin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Go Test.Test_QueryGoodInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
-    <configuration name="BenchmarkTest in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="openapi-sdk-go" />
-      <working_directory value="$PROJECT_DIR$/src/httpClient" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkTest\E$" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Go Test.Test_SyncPriceGoods in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
     <configuration name="Test_CdfUserInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="openapi-sdk-go" />
       <working_directory value="$PROJECT_DIR$/src/httpClient" />
@@ -67,6 +64,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTest_CdfUserInfo\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_OpenGoodsUpdate in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="openapi-sdk-go" />
+      <working_directory value="$PROJECT_DIR$/src/httpClient" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_OpenGoodsUpdate\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_QueryGoodInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -81,6 +90,18 @@
       <pattern value="^\QTest_QueryGoodInfo\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_SyncPriceGoods in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="openapi-sdk-go" />
+      <working_directory value="$PROJECT_DIR$/src/httpClient" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_SyncPriceGoods\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_V1MerchantRegister in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="openapi-sdk-go" />
       <working_directory value="$PROJECT_DIR$/src/httpClient" />
@@ -93,25 +114,13 @@
       <pattern value="^\QTest_V1MerchantRegister\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="openapi-sdk-go" />
-      <working_directory value="$PROJECT_DIR$/src/httpClient" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_V2UserAuth\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_SyncPriceGoods in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
+        <item itemvalue="Go Test.Test_OpenGoodsUpdate in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_QueryGoodInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_CdfUserInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V1MerchantRegister in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-        <item itemvalue="Go Test.Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-        <item itemvalue="Go Test.BenchmarkTest in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
       </list>
     </recent_temporary>
   </component>
@@ -130,19 +139,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/httpClient/goods_query_good_info_test.go</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/openapi_sdk_go$BenchmarkTest_in_github_com_cdfsunrise_fujiabin_openapi_sdk_go_src_httpClient.out" NAME="BenchmarkTest in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient Coverage Results" MODIFIED="1714358715831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

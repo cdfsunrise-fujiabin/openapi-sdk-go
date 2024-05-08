@@ -13,7 +13,6 @@ type QueryGoodInfoResponse struct {
 	Message   string `json:"message"`
 	Data      string `json:"data"`
 }
-
 /*QueryGoodInfo
  *Description: 查询商品信息工具
  * @param: channelId string 渠道id 必填项

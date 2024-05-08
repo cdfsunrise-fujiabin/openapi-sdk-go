@@ -13,7 +13,6 @@ type GqlQueryGoodInfoResponse struct {
 	Message   string `json:"message"`
 	Data      any `json:"data"`
 }
-
 /*GqlQueryGoodInfo
  *Description: 查询商品信息工具
  * @param: fields string 期望返回的字段 必填项
