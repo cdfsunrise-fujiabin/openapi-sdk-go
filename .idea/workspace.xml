@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_gql_gql_query_good_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_gql_gql_query_good_info.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_query_good_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_query_good_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_del_merchant_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_del_merchant_cache.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_channel_register.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_v_1_channel_register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_register.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_update.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/pingan_pingan_order_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/pingan_pingan_order_query.go" afterDir="false" />
