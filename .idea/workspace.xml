@@ -10,7 +10,13 @@
       <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_goods.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_goods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_get_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_get_token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_track.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_track.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/tools_v_1_tool_order_reshipping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/tools_v_1_tool_order_reshipping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/zlt_v_1_zlt_order_created.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/zlt_v_1_zlt_order_created.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,8 +170,17 @@
       <updated>1715743579521</updated>
       <workItem from="1715743580901" duration="2684000" />
       <workItem from="1716184151186" duration="6000000" />
-      <workItem from="1716273173175" duration="667000" />
+      <workItem from="1716273173175" duration="1036000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1716276506983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716276506983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
