@@ -15,15 +15,6 @@ type V1CdfGoodsResponse struct {
 	Data      any    `json:"data"`
 }
 
-type OpenDataReq struct {
-	Appid             string `json:"appid"`
-	Data              string `json:"data"`
-	DataEncryptMethod string `json:"dataEncryptMethod"`
-	Sign              string `json:"sign"`
-	SignEncryptMethod string `json:"signEncryptMethod"`
-	Timestamp         string `json:"timestamp"`
-}
-
 /*V1CdfGoods
  *Description: 获取cdf商品列表
  * @param: body OpenDataReq OpenDataReq 必填项

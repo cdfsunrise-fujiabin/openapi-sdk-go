@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_goods.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_goods.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_get_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_get_token.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_track.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_track.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/tools_v_1_tool_order_reshipping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/tools_v_1_tool_order_reshipping.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/zlt_v_1_zlt_order_created.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/zlt_v_1_zlt_order_created.go" afterDir="false" />
-    </list>
+    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +157,7 @@
       <updated>1715743579521</updated>
       <workItem from="1715743580901" duration="2684000" />
       <workItem from="1716184151186" duration="6000000" />
-      <workItem from="1716273173175" duration="1036000" />
+      <workItem from="1716273173175" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -180,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716276506983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1716276617265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716276617265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
