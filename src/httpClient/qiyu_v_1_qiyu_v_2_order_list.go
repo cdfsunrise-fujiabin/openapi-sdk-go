@@ -40,19 +40,19 @@ type QiYuOrderListQuery struct {
 	UserId	string `json:"userId"`
 }
 
-/*V1QiyuOrderList
+/*V1QiyuV2OrderList
  *Description: 订单列表查询
  * @param: body QiYuOrderListQuery QiYuOrderListQuery 必填项
  * @return: *QiYuOrderApiResult
 */
-func (t *CdfSunriseRequestClient) V1QiyuOrderList(ctx context.Context, body QiYuOrderListQuery) (*QiYuOrderApiResult, error) {
+func (t *CdfSunriseRequestClient) V1QiyuV2OrderList(ctx context.Context, body QiYuOrderListQuery) (*QiYuOrderApiResult, error) {
 	headers := GenHeaders(nil)
 	
 	marshal, err := json.Marshal(body)
     if err != nil {
         return nil, err
     }
-    respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/qiyu/order/list"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
+    respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/qiyu/v2/order/list"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
 	
     if err != nil {
         return nil, err

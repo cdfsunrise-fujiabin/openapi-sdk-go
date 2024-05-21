@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/cdf_cdf_user_info.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_gql_gql_query_good_info.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_query_good_info.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_refresh_zlt_token.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_price_goods.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_del_merchant_cache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_channel_register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/merchant_v_1_merchant_update.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/pingan_pingan_order_query.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2faSJl2RUXZ1NfezHxuUDv665Z2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,18 +42,31 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/fujiabin&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fujiabin/CdfProjects/cdfsunrise/openapi-sdk/openapi-sdk-go&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
+  <component name="RunManager" selected="Go Test.Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="openapi-sdk-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_OpenGoodsUpdate in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="openapi-sdk-go" />
       <working_directory value="$PROJECT_DIR$/src/httpClient" />
@@ -71,18 +79,6 @@
       <pattern value="^\QTest_OpenGoodsUpdate\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_QueryGoodInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="openapi-sdk-go" />
-      <working_directory value="$PROJECT_DIR$/src/httpClient" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_QueryGoodInfo\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_SyncPriceGoods in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="openapi-sdk-go" />
       <working_directory value="$PROJECT_DIR$/src/httpClient" />
@@ -93,6 +89,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTest_SyncPriceGoods\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="openapi-sdk-go" />
+      <working_directory value="$PROJECT_DIR$/src/httpClient" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_V1QiyuV2OrderList\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_V1StockCount in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -119,17 +127,47 @@
       <pattern value="^\QTest_V2UserAuth\E$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="openapi-sdk-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V1StockCount in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_SyncPriceGoods in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_OpenGoodsUpdate in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-        <item itemvalue="Go Test.Test_QueryGoodInfo in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update" />
+      <created>1715743579521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715743579521</updated>
+      <workItem from="1715743580901" duration="2684000" />
+      <workItem from="1716184151186" duration="6000000" />
+      <workItem from="1716273173175" duration="667000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -158,6 +196,11 @@
           <url>file://$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth_test.go</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list_test.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
