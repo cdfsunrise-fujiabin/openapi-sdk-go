@@ -8,32 +8,32 @@ import (
 	"github.com/mitchellh/mapstructure"
 )
 
-type V1CdfRankResponse struct {
+type V1MemberCancelResponse struct {
 	RequestId string `json:"requestId"`
 	Code      int    `json:"code"`
 	Message   string `json:"message"`
 	Data      any    `json:"data"`
 }
 
-/*V1CdfRank
- *Description: 获取cdf排行榜
+/*V1MemberCancel
+ *Description: 会员退卡
  * @param: body OpenDataReq OpenDataReq 必填项
- * @return: *V1CdfRankResponse
+ * @return: *V1MemberCancelResponse
  */
-func (t *CdfSunriseRequestClient) V1CdfRank(ctx context.Context, body OpenDataReq) (*V1CdfRankResponse, error) {
+func (t *CdfSunriseRequestClient) V1MemberCancel(ctx context.Context, body OpenDataReq) (*V1MemberCancelResponse, error) {
 	headers := GenHeaders(nil)
 
 	marshal, err := json.Marshal(body)
 	if err != nil {
 		return nil, err
 	}
-	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/cdf/rank"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
+	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/member/cancel"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
 
 	if err != nil {
 		return nil, err
 	}
 
-	var respEntity V1CdfRankResponse
+	var respEntity V1MemberCancelResponse
 	err = mapstructure.Decode(respMap, &respEntity)
 	if err != nil {
 		return nil, err

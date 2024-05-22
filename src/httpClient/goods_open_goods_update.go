@@ -27,12 +27,6 @@ type UpdateGood struct {
 	Type      string `json:"type"`
 }
 
-type GoodResp struct {
-	ErrInfo string `json:"errInfo"`
-	LefoxId string `json:"lefoxId"`
-	Success bool   `json:"success"`
-}
-
 /*OpenGoodsUpdate
  *Description: 开放平台商品信息通知
  * @param: body OpenGoodUpdateReq OpenGoodUpdateReq 必填项

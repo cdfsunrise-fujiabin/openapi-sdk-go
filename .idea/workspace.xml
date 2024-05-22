@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="update" />
+    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="new api">
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_brand.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_member_cancel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_member_detail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_member_grant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_order_cancel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_order_create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_order_refund.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_account_info.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_account_query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_create_and_tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_qrcode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_use_socre.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_user_receive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_user_score_ack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_user_user_score_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_open_goods_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/goods_sync_good_price.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_openapiaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/notify_v_1_alipay_notify.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_goods.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_goods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_rank.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_cdf_rank.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_stock_count.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_stock_count.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_get_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_get_token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_track.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_order_track.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/qiyu_v_1_qiyu_v_2_order_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/tools_v_1_tool_order_reshipping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/tools_v_1_tool_order_reshipping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/zlt_v_1_zlt_order_created.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/zlt_v_1_zlt_order_created.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +83,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
+  <component name="RunManager" selected="Go Test.Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="openapi-sdk-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -131,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
+        <item itemvalue="Go Test.Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V1StockCount in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_SyncPriceGoods in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_OpenGoodsUpdate in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
@@ -194,7 +226,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="new api" />
+    <option name="LAST_COMMIT_MESSAGE" value="new api" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

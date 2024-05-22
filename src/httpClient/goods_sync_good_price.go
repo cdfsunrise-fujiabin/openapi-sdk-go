@@ -27,6 +27,12 @@ type GoodPriceInfo struct {
 	SalePrice    string `json:"salePrice"`
 }
 
+type GoodResp struct {
+	ErrInfo string `json:"errInfo"`
+	LefoxId string `json:"lefoxId"`
+	Success bool   `json:"success"`
+}
+
 /*SyncGoodPrice
  *Description: 同步商品价格信息
  * @param: body SyncGoodPriceReq SyncGoodPriceReq 必填项
