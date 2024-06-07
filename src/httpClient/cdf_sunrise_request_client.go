@@ -3,19 +3,19 @@ package httpClient
 import "github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/utils/exEncrypt"
 
 type CdfSunriseRequestClient struct {
-	host      string
-	appId     string
-	appKey    string
+	host string
+	//appId     string
+	//appKey    string
 	rsaPubKey string
 	xrsa      *exEncrypt.XRsa
 }
 
-func NewCdfSunriseRequestClient(host, appId, appKey, rsaPubKey string) *CdfSunriseRequestClient {
+func NewCdfSunriseRequestClient(host, rsaPubKey string) *CdfSunriseRequestClient {
 	xrsa, _ := exEncrypt.NewPublicRsa([]byte(rsaPubKey))
 	return &CdfSunriseRequestClient{
-		host:      host,
-		appId:     appId,
-		appKey:    appKey,
+		host: host,
+		//appId:     appId,
+		//appKey:    appKey,
 		rsaPubKey: rsaPubKey,
 		xrsa:      xrsa,
 	}

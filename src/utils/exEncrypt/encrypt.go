@@ -18,7 +18,7 @@ func NewMd5Encrypt() *Md5Encrypt {
 }
 
 func (e *Md5Encrypt) Encrypt(sign Sign) (string, error) {
-	sign.Collect()
+	sign.collect()
 	plainTxt, err := sign.GenSign()
 	if err != nil {
 		return "", err
@@ -33,7 +33,7 @@ func (e *Md5Encrypt) Md5(input string) string {
 }
 
 func (e *Md5Encrypt) UpperEncrypt(sign Sign) (string, error) {
-	sign.Collect()
+	sign.collect()
 	plainTxt, err := sign.GenSign()
 	if err != nil {
 		return "", err

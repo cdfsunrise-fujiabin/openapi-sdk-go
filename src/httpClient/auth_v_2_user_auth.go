@@ -9,34 +9,34 @@ import (
 )
 
 type V2UserAuthResponse struct {
-	RequestId string `json:"requestId"`
-	Code      int    `json:"code"`
-	Message   string `json:"message"`
-	Data      any `json:"data"`
+	RequestId string `mapstructure:"requestId"`
+	Code      int    `mapstructure:"code"`
+	Message   string `mapstructure:"message"`
+	Data      any    `mapstructure:"data"`
 }
 
 type OpenAuthReq struct {
-	Appid	string `json:"appid"`
-	Password	string `json:"password"`
+	Appid    string `json:"appid"`
+	Password string `json:"password"`
 }
 
 /*V2UserAuth
- *Description: 
+ *Description:
  * @param: body OpenAuthReq OpenAuthReq 必填项
  * @return: *V2UserAuthResponse
-*/
+ */
 func (t *CdfSunriseRequestClient) V2UserAuth(ctx context.Context, body OpenAuthReq) (*V2UserAuthResponse, error) {
 	headers := GenHeaders(nil)
-	
+
 	marshal, err := json.Marshal(body)
-    if err != nil {
-        return nil, err
-    }
-    respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v2/user/auth"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
-	
-    if err != nil {
-        return nil, err
-    }
+	if err != nil {
+		return nil, err
+	}
+	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v2/user/auth"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
+
+	if err != nil {
+		return nil, err
+	}
 
 	var respEntity V2UserAuthResponse
 	err = mapstructure.Decode(respMap, &respEntity)
