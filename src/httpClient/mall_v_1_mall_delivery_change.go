@@ -8,14 +8,14 @@ import (
 	"github.com/mitchellh/mapstructure"
 )
 
-type V1QueryGoodsStockResponse struct {
+type V1MallDeliveryChangeResponse struct {
 	RequestId string `mapstructure:"requestId"`
 	Code      int    `mapstructure:"code"`
 	Message   string `mapstructure:"message"`
-	Data      any    `mapstructure:"data"`
+	Data      string `mapstructure:"data"`
 }
 
-type OpenDataReq struct {
+type BaseRequest struct {
 	Appid             string `json:"appid"`
 	Data              string `json:"data"`
 	DataEncryptMethod string `json:"dataEncryptMethod"`
@@ -24,12 +24,12 @@ type OpenDataReq struct {
 	Timestamp         string `json:"timestamp"`
 }
 
-/*V1QueryGoodsStock
- *Description: 开放平台查询商品库存
- * @param: body OpenDataReq OpenDataReq 必填项
- * @return: *V1QueryGoodsStockResponse
+/*V1MallDeliveryChange
+ *Description: 【商户入驻】- 收货地址变更申请回执
+ * @param: body BaseRequest BaseRequest 必填项
+ * @return: *V1MallDeliveryChangeResponse
  */
-func (t *CdfSunriseRequestClient) V1QueryGoodsStock(ctx context.Context, authToken string, body OpenDataReq) (*V1QueryGoodsStockResponse, error) {
+func (t *CdfSunriseRequestClient) V1MallDeliveryChange(ctx context.Context, authToken string, body BaseRequest) (*V1MallDeliveryChangeResponse, error) {
 	headers := GenHeaders(map[string]string{
 		"Authorization": authToken,
 	})
@@ -38,13 +38,13 @@ func (t *CdfSunriseRequestClient) V1QueryGoodsStock(ctx context.Context, authTok
 	if err != nil {
 		return nil, err
 	}
-	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/query/goodsStock"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
+	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/mall/delivery/change"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
 
 	if err != nil {
 		return nil, err
 	}
 
-	var respEntity V1QueryGoodsStockResponse
+	var respEntity V1MallDeliveryChangeResponse
 	err = mapstructure.Decode(respMap, &respEntity)
 	if err != nil {
 		return nil, err
