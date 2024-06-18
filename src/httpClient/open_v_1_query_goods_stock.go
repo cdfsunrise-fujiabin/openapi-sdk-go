@@ -12,16 +12,7 @@ type V1QueryGoodsStockResponse struct {
 	RequestId string `mapstructure:"requestId"`
 	Code      int    `mapstructure:"code"`
 	Message   string `mapstructure:"message"`
-	Data      any    `mapstructure:"data"`
-}
-
-type OpenDataReq struct {
-	Appid             string `json:"appid"`
-	Data              string `json:"data"`
-	DataEncryptMethod string `json:"dataEncryptMethod"`
-	Sign              string `json:"sign"`
-	SignEncryptMethod string `json:"signEncryptMethod"`
-	Timestamp         string `json:"timestamp"`
+	Data      string `mapstructure:"data"`
 }
 
 /*V1QueryGoodsStock

@@ -9,16 +9,10 @@ import (
 )
 
 type V1QueryGoodsBrandResponse struct {
-	RequestId string       `mapstructure:"requestId"`
-	Code      int          `mapstructure:"code"`
-	Message   string       `mapstructure:"message"`
-	Data      []GoodsBrand `mapstructure:"data"`
-}
-
-type GoodsBrand struct {
-	BrandId     string `json:"brandId"`
-	BrandNameCn string `json:"brandNameCN"`
-	BrandNameEn string `json:"brandNameEn"`
+	RequestId string `mapstructure:"requestId"`
+	Code      int    `mapstructure:"code"`
+	Message   string `mapstructure:"message"`
+	Data      string `mapstructure:"data"`
 }
 
 /*V1QueryGoodsBrand

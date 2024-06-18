@@ -12,7 +12,7 @@ type V1QueryGoodsCategoryResponse struct {
 	RequestId string `mapstructure:"requestId"`
 	Code      int    `mapstructure:"code"`
 	Message   string `mapstructure:"message"`
-	Data      any    `mapstructure:"data"`
+	Data      string `mapstructure:"data"`
 }
 
 /*V1QueryGoodsCategory

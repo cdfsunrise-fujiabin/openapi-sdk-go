@@ -8,19 +8,19 @@ import (
 	"github.com/mitchellh/mapstructure"
 )
 
-type V1MallDeliveryChangeResponse struct {
+type V1MallAfterSaleReplyResponse struct {
 	RequestId string `mapstructure:"requestId"`
 	Code      int    `mapstructure:"code"`
 	Message   string `mapstructure:"message"`
 	Data      string `mapstructure:"data"`
 }
 
-/*V1MallDeliveryChange
- *Description: 【商户入驻】- 收货地址变更申请回执
+/*V1MallAfterSaleReply
+ *Description: 【商户入驻】- 售后信息回执
  * @param: body BaseRequest BaseRequest 必填项
- * @return: *V1MallDeliveryChangeResponse
+ * @return: *V1MallAfterSaleReplyResponse
  */
-func (t *CdfSunriseRequestClient) V1MallDeliveryChange(ctx context.Context, authToken string, body BaseRequest) (*V1MallDeliveryChangeResponse, error) {
+func (t *CdfSunriseRequestClient) V1MallAfterSaleReply(ctx context.Context, authToken string, body BaseRequest) (*V1MallAfterSaleReplyResponse, error) {
 	headers := GenHeaders(map[string]string{
 		"Authorization": authToken,
 	})
@@ -29,13 +29,13 @@ func (t *CdfSunriseRequestClient) V1MallDeliveryChange(ctx context.Context, auth
 	if err != nil {
 		return nil, err
 	}
-	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/mall/delivery/change"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
+	respMap, err := exHttp.NewHttpRequest(ctx, t.host, fmt.Sprintf("/v1/mall/after/sale/reply"), exHttp.WithHeaders(headers), exHttp.WithRequestBody(string(marshal))).PostUnmarshal()
 
 	if err != nil {
 		return nil, err
 	}
 
-	var respEntity V1MallDeliveryChangeResponse
+	var respEntity V1MallAfterSaleReplyResponse
 	err = mapstructure.Decode(respMap, &respEntity)
 	if err != nil {
 		return nil, err
