@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="自动生成的sdk代码">
+    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_express.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_express.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_invoice_apply.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_invoice_apply.go" afterDir="false" />
@@ -192,7 +193,7 @@
       <workItem from="1717739388917" duration="9501000" />
       <workItem from="1718106755401" duration="23000" />
       <workItem from="1718268403056" duration="3765000" />
-      <workItem from="1718676962875" duration="699000" />
+      <workItem from="1718676962875" duration="1912000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718355866915</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail">
+      <option name="closed" value="true" />
+      <created>1718679788903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718679788903</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +265,8 @@
     <MESSAGE value="new api" />
     <MESSAGE value="增加Auth相关的基础代码【开放平台java-go】，重新生成代码，暂时去掉不一定需要暴露的api接口，专注于需要暴露的商户接口" />
     <MESSAGE value="自动生成的sdk代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动生成的sdk代码" />
+    <MESSAGE value="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

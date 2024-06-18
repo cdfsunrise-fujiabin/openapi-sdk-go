@@ -15,15 +15,6 @@ type V1MallInvoiceApplyResponse struct {
 	Data      string `mapstructure:"data"`
 }
 
-type BaseRequest struct {
-	Appid             string `json:"appid"`
-	Data              string `json:"data"`
-	DataEncryptMethod string `json:"dataEncryptMethod"`
-	Sign              string `json:"sign"`
-	SignEncryptMethod string `json:"signEncryptMethod"`
-	Timestamp         string `json:"timestamp"`
-}
-
 /*V1MallInvoiceApply
  *Description: 【商户入驻】- 订单发票开票申请回执
  * @param: body BaseRequest BaseRequest 必填项

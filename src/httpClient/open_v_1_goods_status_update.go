@@ -15,6 +15,15 @@ type V1GoodsStatusUpdateResponse struct {
 	Data      string `mapstructure:"data"`
 }
 
+type OpenDataReq struct {
+	Appid             string `json:"appid"`
+	Data              string `json:"data"`
+	DataEncryptMethod string `json:"dataEncryptMethod"`
+	Sign              string `json:"sign"`
+	SignEncryptMethod string `json:"signEncryptMethod"`
+	Timestamp         string `json:"timestamp"`
+}
+
 /*V1GoodsStatusUpdate
  *Description: 开放平台更新商品上下架
  * @param: body OpenDataReq OpenDataReq 必填项
