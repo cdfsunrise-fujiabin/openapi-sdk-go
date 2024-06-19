@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail" />
+    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_express.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_express.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_invoice_apply.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_invoice_apply.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_order_detail.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_order_detail.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_price_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_price_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_status_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_status_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_stock_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_stock_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_brand.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_brand.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_category.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_warehouse.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_warehouse.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,6 +195,7 @@
       <workItem from="1718106755401" duration="23000" />
       <workItem from="1718268403056" duration="3765000" />
       <workItem from="1718676962875" duration="1912000" />
+      <workItem from="1718770628403" duration="4027000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />

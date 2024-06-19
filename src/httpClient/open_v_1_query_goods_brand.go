@@ -15,6 +15,15 @@ type V1QueryGoodsBrandResponse struct {
 	Data      string `mapstructure:"data"`
 }
 
+type OpenDataReq struct {
+	Appid             string `json:"appid"`
+	Data              string `json:"data"`
+	DataEncryptMethod string `json:"dataEncryptMethod"`
+	Sign              string `json:"sign"`
+	SignEncryptMethod string `json:"signEncryptMethod"`
+	Timestamp         string `json:"timestamp"`
+}
+
 /*V1QueryGoodsBrand
  *Description: 开放平台商品品牌查询
  * @param: body OpenDataReq OpenDataReq 必填项

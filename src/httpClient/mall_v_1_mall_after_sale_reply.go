@@ -15,6 +15,15 @@ type V1MallAfterSaleReplyResponse struct {
 	Data      string `mapstructure:"data"`
 }
 
+type BaseRequest struct {
+	Appid             string `json:"appid"`
+	Data              string `json:"data"`
+	DataEncryptMethod string `json:"dataEncryptMethod"`
+	Sign              string `json:"sign"`
+	SignEncryptMethod string `json:"signEncryptMethod"`
+	Timestamp         string `json:"timestamp"`
+}
+
 /*V1MallAfterSaleReply
  *Description: 【商户入驻】- 售后信息回执
  * @param: body BaseRequest BaseRequest 必填项
