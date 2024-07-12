@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/auth_v_2_user_auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/cdf_sunrise_request_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/cdf_sunrise_request_client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" afterDir="false" />
@@ -16,10 +16,11 @@
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_price_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_price_update.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_status_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_status_update.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_stock_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_stock_update.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_brand.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_brand.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_category.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_brand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_category.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_warehouse.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_warehouse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_long_rsa.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_long_rsa.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -79,7 +81,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.Test_V1MallOrderDetail in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
+  <component name="RunManager" selected="Go Test.Test_V1QueryGoodsStock in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="openapi-sdk-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -159,9 +161,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_V1QueryGoodsStock in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V1MallOrderDetail in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V2UserAuth in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
-        <item itemvalue="Go Test.Test_V1QueryGoodsStock in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V1QueryGoodsStockBak in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
         <item itemvalue="Go Test.Test_V1QiyuV2OrderList in github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/httpClient" />
       </list>
@@ -170,8 +172,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -195,7 +197,12 @@
       <workItem from="1718106755401" duration="23000" />
       <workItem from="1718268403056" duration="3765000" />
       <workItem from="1718676962875" duration="1912000" />
-      <workItem from="1718770628403" duration="4027000" />
+      <workItem from="1718770628403" duration="4087000" />
+      <workItem from="1718873380228" duration="17000" />
+      <workItem from="1719207682660" duration="5542000" />
+      <workItem from="1719387135982" duration="1872000" />
+      <workItem from="1720749144254" duration="757000" />
+      <workItem from="1720750067275" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -245,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718679788903</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail">
+      <option name="closed" value="true" />
+      <created>1718787037744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718787037744</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,14 +302,14 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/httpClient/mall_v_1_mall_order_detail_test.go</url>
-          <line>33</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock_test.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/httpClient/mall_v_1_mall_order_detail_test.go</url>
-          <line>15</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock_test.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

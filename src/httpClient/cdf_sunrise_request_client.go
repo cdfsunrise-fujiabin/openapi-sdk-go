@@ -1,23 +1,27 @@
 package httpClient
 
-import "github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/utils/exEncrypt"
+import (
+	"github.com/cdfsunrise-fujiabin/openapi-sdk-go/src/utils/exEncrypt"
+)
 
 type CdfSunriseRequestClient struct {
 	host string
 	//appId     string
 	//appKey    string
-	rsaPubKey string
-	xrsa      *exEncrypt.XRsa
+	rsaPubKey     string
+	rsaPrivateKey string
+	xrsa          *exEncrypt.XRsa
 }
 
-func NewCdfSunriseRequestClient(host, rsaPubKey string) *CdfSunriseRequestClient {
-	xrsa, _ := exEncrypt.NewPublicRsa([]byte(rsaPubKey))
+func NewCdfSunriseRequestClient(host, rsaPubKey, rsaPrivateKey string) *CdfSunriseRequestClient {
+	xrsa, _ := exEncrypt.NewXRsa([]byte(rsaPubKey), []byte(rsaPrivateKey))
 	return &CdfSunriseRequestClient{
 		host: host,
 		//appId:     appId,
 		//appKey:    appKey,
-		rsaPubKey: rsaPubKey,
-		xrsa:      xrsa,
+		rsaPubKey:     rsaPubKey,
+		rsaPrivateKey: rsaPrivateKey,
+		xrsa:          xrsa,
 	}
 }
 
@@ -45,4 +49,15 @@ func (t *CdfSunriseRequestClient) EncryptByRsa(raw string) string {
 		return ""
 	}
 	return encrypt
+}
+
+func (t *CdfSunriseRequestClient) DecryptByRsa(encryptContent string) string {
+	if encryptContent == "" || t.xrsa == nil {
+		return ""
+	}
+	rawData, err := t.xrsa.PrivateDecrypt(encryptContent)
+	if err != nil {
+		return ""
+	}
+	return rawData
 }

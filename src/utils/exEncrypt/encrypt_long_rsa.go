@@ -98,7 +98,7 @@ func (r *XRsa) PublicEncrypt(data string) (string, error) {
 func (r *XRsa) PrivateDecrypt(encrypted string) (string, error) {
 	partLen := r.publicKey.N.BitLen() / 8
 	raw, err := base64.RawURLEncoding.DecodeString(encrypted)
-	chunks := split([]byte(raw), partLen)
+	chunks := split(raw, partLen)
 
 	buffer := bytes.NewBufferString("")
 	for _, chunk := range chunks {
