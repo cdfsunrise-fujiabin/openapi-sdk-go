@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail">
+    <list default="true" id="e0cd5179-267c-4bcd-84de-ba219c2d1d70" name="Changes" comment="更新基础代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/cdf_sunrise_request_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/cdf_sunrise_request_client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_after_sale_reply.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/mall_v_1_mall_delivery_change.go" afterDir="false" />
@@ -16,11 +15,8 @@
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_price_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_price_update.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_status_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_status_update.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_stock_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_goods_stock_update.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_brand.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_category.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/httpClient/open_v_1_query_warehouse.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpClient/open_v_1_query_warehouse.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_long_rsa.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exEncrypt/encrypt_long_rsa.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +198,10 @@
       <workItem from="1719207682660" duration="5542000" />
       <workItem from="1719387135982" duration="1872000" />
       <workItem from="1720749144254" duration="757000" />
-      <workItem from="1720750067275" duration="953000" />
+      <workItem from="1720750067275" duration="1079000" />
+      <workItem from="1721380144887" duration="3625000" />
+      <workItem from="1721697736778" duration="220000" />
+      <workItem from="1721698077034" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -260,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718787037744</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新基础代码">
+      <option name="closed" value="true" />
+      <created>1720751097306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720751097306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,8 @@
     <MESSAGE value="增加Auth相关的基础代码【开放平台java-go】，重新生成代码，暂时去掉不一定需要暴露的api接口，专注于需要暴露的商户接口" />
     <MESSAGE value="自动生成的sdk代码" />
     <MESSAGE value="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加/v1/mall/delivery/change、/v1/mall/express、/v1/mall/invoice/apply、/v1/mall/order/detail" />
+    <MESSAGE value="更新基础代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新基础代码" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -300,16 +308,6 @@
           <url>file://$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock_bak_test.go</url>
           <line>42</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock_test.go</url>
-          <line>35</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/httpClient/open_v_1_query_goods_stock_test.go</url>
-          <line>32</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

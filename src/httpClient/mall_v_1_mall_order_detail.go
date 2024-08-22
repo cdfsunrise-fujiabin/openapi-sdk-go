@@ -15,6 +15,15 @@ type V1MallOrderDetailResponse struct {
 	Data      string `mapstructure:"data"`
 }
 
+type BaseRequest struct {
+	Appid             string `json:"appid"`
+	Data              string `json:"data"`
+	DataEncryptMethod string `json:"dataEncryptMethod"`
+	Sign              string `json:"sign"`
+	SignEncryptMethod string `json:"signEncryptMethod"`
+	Timestamp         string `json:"timestamp"`
+}
+
 /*V1MallOrderDetail
  *Description: 【商户入驻】- 查询订单详情
  * @param: body BaseRequest BaseRequest 必填项
